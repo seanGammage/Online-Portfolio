@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<!-- define angular app -->
+<html ng-app="myApp"style="background-color: #3e3e3e;">
+
+<head>
+	<!-- to ensure proper rendering and zooming... for mobile -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+ 
+	<link rel="stylesheet" type="text/css" href="styles/styles.css">
+  
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular-route.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-animate.js"></script>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+  
+  <script src="scripts/script1.js"></script>
+</head>
+
+<!-- define angular controller -->
+<body ng-controller="mainController">
+
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Sean Gammage - Software Developer</a>
+    </div>
+    <ul class="nav navbar-nav" ng-controller="HeaderController">
+      <li ng-class="{ active: isActive('/')}"><a href="#">Home</a></li>
+      <li ng-class="{ active: isActive('/skills')}"><a href="#skills">Skills</a></li>
+	  <li ng-class="{ active: isActive('/experience')}"><a href="#experience">Experience</a></li>
+	  <li ng-class="{ active: isActive('/project')}"><a href="#project">Projects</a></li>
+	  <li ng-class="{ active: isActive('/contact')}"><a href="#contact">Contact</a></li>
+    </ul>
+    <form class="navbar-form navbar-left" action="/action_page.php">
+      <div class="form-group">
+        
+    </form>
+  </div>
+</nav>
+
+
+
+  <div id="main">
+  
+    <!-- angular templating -->
+		<!-- this is where content will be injected -->
+    <div ng-view></div>
+    
+  </div>
+  
+  
+
+  
+  
+  
+</body>
+
+</html>

@@ -1,0 +1,351 @@
+p.white {
+	color: #fff;
+	font-weight: bold;
+	text-align: left;
+	line-height: 40px;
+	padding-left: 15px;
+}
+
+h3 {
+	text-align: left;
+	line-height: 40px;
+	padding-left: 15px;
+}
+
+#pstuff {
+	padding-left: 15px;
+}
+
+.img-circle {
+	height: 65%;
+	width: 65%;
+}
+
+#img3 {
+	position: relative; 
+	top: 0;
+	left: 0;
+	
+}
+
+#pstuff2 {
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-bottom: 0px;
+	
+}
+
+
+
+#skill {
+	
+	
+}
+
+#skillsss {
+	padding-top: 50px;
+	position: relative;
+}
+
+.codeBtn {
+	background-color: #3e3e3e;
+	color: yellow;
+	font-weight: bold;
+	text-align: center;
+	display: inline-block;
+	cursor: pointer;
+	border: 2px solid black;
+	border-radius: 5px;
+	height: 60px;
+	width:90px;
+	font-size: 30px;
+    transition-duration: 0.4s;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.codeBtn:hover {
+    background-color: yellow;
+    color: #000;
+	opacity: 0.5px;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.codeBtn2 {
+	background-color: #1c1c1c;
+	color: yellow;
+	font-weight: bold;
+	text-align: center;
+	display: inline-block;
+	cursor: pointer;
+	border: 2px solid black;
+	border-radius: 5px;
+	height: 60px;
+	width:90px;
+	font-size: 30px;
+    transition-duration: 0.4s;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.codeBtn2:hover {
+    background-color: yellow;
+    color: #000;
+	opacity: 0.5px;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.circle {
+	width: 130px;
+	height: 130px;
+	display: table-cell;
+	vertical-align: middle;
+	font-size: 30px;
+	border-radius: 50%;
+	text-align: center;
+	font-weight: bold; 
+	font-size: 20px;
+	background-color: lightgrey;
+	color: #000;
+	margin: 0 auto;
+	padding-top: 10%;
+}
+
+#languages {
+	height: 100%;
+	width: 100%;
+	text-align: left;
+	margin: 10px;
+	background-color: 3e3e3e;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	
+}
+td {
+	padding: 10px;
+	font-size: 10px;
+}
+
+.pskill {
+	font-size: 10px;
+}
+
+#frameworks {
+	height: 100%;
+	width: 100%;
+	text-align: center;
+	background-color: 3e3e3e;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+
+
+#tools {
+	height: 100%;
+	width: 100%;
+	text-align: center;
+	background-color: 3e3e3e;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	
+}
+
+.skillsh1 {
+	padding-left: 10px;
+}
+
+h1.headerh1 {
+	color: #fff;
+}
+
+
+
+.experienceTb {
+	height: 100%;
+	width: 100%;
+	text-align: center;
+	background-color: 3e3e3e;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	color: #fff;
+	padding: 30%;
+}
+
+#experiencetddiv1 {
+	vertical-align: middle;
+	font-size: 25px;
+	width: 100%;
+	height: 20%;
+	padding: 15%;
+	
+}
+
+#experiencetddiv1:hover {
+    color: yellow;
+	opacity: 0.5px;
+	
+}
+
+#experiencetddiv2 {
+	vertical-align: middle;
+	font-size: 25px;
+	width: 100%;
+	height: 20%;
+	padding: 15%;
+	
+}
+
+#experiencetddiv2:hover {
+    color: yellow;
+	opacity: 0.5px;
+	
+}
+
+#experiencetddiv3 {
+	vertical-align: middle;
+	font-size: 25px;
+	width: 100%;
+	height: 20%;
+	padding: 15%;
+	
+}
+
+#experiencetddiv3:hover {
+    color: yellow;
+	opacity: 0.5px;
+	
+}
+
+#experiencetddiv4 {
+	vertical-align: middle;
+	font-size: 25px;
+	width: 100%;
+	height: 20%;
+	padding: 15%;
+	
+}
+
+#experiencetddiv4:hover {
+    color: yellow;
+	opacity: 0.5px;
+	
+}
+
+#experiencetddiv5 {
+	vertical-align: middle;
+	font-size: 25px;
+	width: 100%;
+	height: 20%;
+	padding: 15%;
+	
+}
+
+#experiencetddiv5:hover {
+    color: yellow;
+	opacity: 0.5px;
+	
+}
+
+#claimphotodiv {
+	text-align: center;
+	width: 100%;
+	height: 400px;
+	margin: 0 auto;
+	
+}
+
+#claiminfo {
+	
+}
+
+.expdatediv {
+	height: 50px;
+	width: 100%;
+	text-align: right;
+}
+
+.expdatediv p {
+	text-align: right;
+	padding-right: 10px;
+}
+
+.infodiv {
+	height: 350px;
+	width: 100%;
+	padding: 10px;
+	text-align: left;
+}
+
+.infoheader {
+	color: #fff;
+	font-size: 25px;
+}
+
+.infolist {
+	color: #fff;
+	font-size: 20px;
+}
+
+.infolistul {
+	list-style-type: circle;
+}
+
+p.yellow {
+	color: yellow;
+	font-weight: bold;
+	text-align: right;
+	line-height: 40px;
+	padding-left: 15px;
+}
+
+#uwspphotodiv {
+	text-align: center;
+	width: 100%;
+	height: 400px;
+	margin: 0 auto;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
